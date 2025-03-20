@@ -4,11 +4,13 @@
   "description": "My teamwork project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node app.js",
+    "pmdev": "pm2 start app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.21.2",
     "prettier": "^3.5.3"
   }
